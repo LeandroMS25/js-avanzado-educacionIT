@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrador</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <table style="width: 100%; text-align: center;">
+        <thead style="background: grey;">
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </thead>
+        <tbody id="tbodyId">
+
+        </tbody>
+    </table>
+    <div style="width: 50%; margin-top: 20px; margin-left: 25%;">
+        <form id="formulario">
+            <label for="nombre"> NOMBRE </label>
+            <input id="nombre" type="text" placeholder="Ingrese su nombre">
+        
+            <label for="apellido"> APELLIDO </label>
+            <input id="apellido" type="text" placeholder="Ingrese su apellido">
+
+            <label for="edad"> EDAD </label>
+            <input id="edad" type="number" placeholder="Ingrese su edad">
+
+        <!--     <label for="cursos"> CURSOS </label>
+            <input id="cursos" type="text" placeholder="Ingrese sus cursos"> -->
+        
+            <input id="submit" type="submit" value="Confirmar">
+        </form>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
